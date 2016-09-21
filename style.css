@@ -7,12 +7,14 @@ body {
   background: #3498db;
   color: #fff;
 }
+
 .wrapper {
   max-width: 50rem;
   width: 100%;
   margin: 5rem auto;
   text-align: center;
 }
+/* ======= LOADING =======*/
 h1.loading {
   font-size: 3em;
   font-weight: 400;
@@ -76,4 +78,20 @@ span[class^='dot_'] {
   100% {
     opacity: 1;
   }
+}
+
+/* ======= BALL ======== */
+.bouncing_ball {
+  position: relative;
+  width: 4rem;
+  height: 12rem;
+  margin: 0 auto;
+}
+.ball {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0;
 }
