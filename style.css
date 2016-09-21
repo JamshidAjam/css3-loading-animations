@@ -94,4 +94,31 @@ span[class^='dot_'] {
   background: #fff;
   position: absolute;
   top: 0;
+  animation: bounce 1s infinite;
+}
+@keyframes bounce {
+  0% {
+    top: 0;
+    animation-timing-function: ease-in;
+  }
+  34% {
+    height: 4rem;
+    width: 4rem;
+  }
+  35% {
+    top: 8rem;
+    height: 3rem;
+    width: 4.3rem;
+    animation-timing-function: ease-out;
+  }
+  45% {
+    height: 4rem;
+    width: 4rem;
+  }
+  90% {
+    top: 0;
+  }
+  100% {
+    top: 0;
+  }
 }
